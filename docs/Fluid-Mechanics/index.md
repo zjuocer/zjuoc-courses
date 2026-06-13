@@ -1,10 +1,6 @@
 ﻿# 流体力学 Markdown 讲义总目录
 
-本文件夹按课程章节重新整理了已生成的中文 Markdown 讲义。原始讲义文件仍保留在上一级目录中；本文件夹内为按章节归档后的副本。
-
-## 00 课程导论
-
-- [00_课程导论_Fluid_Mechanics_Introduction.md](00_课程导论/00_课程导论_Fluid_Mechanics_Introduction.md)
+讲义由AI提取PPT中的内容直接生成，未作修改。
 
 ## 01 绪论与流体性质
 
