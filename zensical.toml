@@ -12,9 +12,9 @@ nav = [
   { "首页" = "index.md" },
   { "流体力学" = [
     { "总目录" = "Fluid-Mechanics/index.md" },
-    { "00 课程导论" = [
-      { "课程导论" = "Fluid-Mechanics/00_课程导论/00_课程导论_Fluid_Mechanics_Introduction.md" },
-    ] },
+    #    { "00 课程导论" = [
+    #      { "课程导论" = "Fluid-Mechanics/00_课程导论/00_课程导论_Fluid_Mechanics_Introduction.md" },
+    #    ] },
     { "01 绪论与流体性质" = [
       { "流体力学绪论" = "Fluid-Mechanics/01_绪论与流体性质/01_流体力学绪论.md" },
       { "流体主要性质：连续介质、惯性、压缩性" = "Fluid-Mechanics/01_绪论与流体性质/02_流体主要性质_连续介质_惯性_压缩性.md" },
