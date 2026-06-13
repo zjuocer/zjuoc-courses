@@ -8,21 +8,59 @@
 
 [project]
 
+nav = [
+  { "首页" = "index.md" },
+  { "流体力学" = [
+    { "总目录" = "Fluid-Mechanics/index.md" },
+    { "00 课程导论" = [
+      { "课程导论" = "Fluid-Mechanics/00_课程导论/00_课程导论_Fluid_Mechanics_Introduction.md" },
+    ] },
+    { "01 绪论与流体性质" = [
+      { "流体力学绪论" = "Fluid-Mechanics/01_绪论与流体性质/01_流体力学绪论.md" },
+      { "流体主要性质：连续介质、惯性、压缩性" = "Fluid-Mechanics/01_绪论与流体性质/02_流体主要性质_连续介质_惯性_压缩性.md" },
+      { "流体主要性质：黏性、表面张力、汽化压强、受力" = "Fluid-Mechanics/01_绪论与流体性质/03_流体主要性质_黏性_表面张力_汽化压强_受力.md" },
+    ] },
+    { "02 流体静力学" = [
+      { "静水压强、平衡方程、压强分布" = "Fluid-Mechanics/02_流体静力学/01_静水压强_平衡方程_压强分布.md" },
+      { "浮力与浮体稳定性" = "Fluid-Mechanics/02_流体静力学/02_浮力与浮体稳定性.md" },
+    ] },
+    { "03 流体运动基础" = [
+      { "运动描述、流线、流动分类、有旋无旋" = "Fluid-Mechanics/03_流体运动基础/01_运动描述_流线_流动分类_有旋无旋.md" },
+      { "基本方程：连续性、Euler、NS、Bernoulli" = "Fluid-Mechanics/03_流体运动基础/02_基本方程_连续性_Euler_NS_Bernoulli.md" },
+      { "二维势流、流函数、流网、章节总结" = "Fluid-Mechanics/03_流体运动基础/03_二维势流_流函数_流网_章节总结.md" },
+    ] },
+    { "04 恒定总流基本方程" = [
+      { "总流分析方法、连续性方程" = "Fluid-Mechanics/04_恒定总流基本方程/01_总流分析方法_连续性方程.md" },
+      { "总流 Bernoulli 方程、水头线、动量方程" = "Fluid-Mechanics/04_恒定总流基本方程/02_总流Bernoulli方程_水头线_动量方程.md" },
+    ] },
+    { "05 量纲分析与相似原理" = [
+      { "量纲分析、相似原理、模型试验" = "Fluid-Mechanics/05_量纲分析与相似原理/01_量纲分析_相似原理_模型试验.md" },
+    ] },
+    { "06 流动阻力与能量损失" = [
+      { "流动阻力基础、流态、圆管层流" = "Fluid-Mechanics/06_流动阻力与能量损失/01_流动阻力基础_流态_圆管层流.md" },
+    ] },
+    { "99 附录" = [
+      { "流体力学专业词汇表" = "Fluid-Mechanics/99_附录/流体力学专业词汇表.md" },
+      { "流体力学专业词汇表（按字母排序）" = "Fluid-Mechanics/99_附录/流体力学专业词汇表_按字母排序.md" },
+    ] },
+  ] },
+]
+
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Documentation"
+site_name = "Notes"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "一个用来放笔记的仓库"
 
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "<your name here>"
+site_author = "Authors"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -65,7 +103,10 @@ Copyright &copy; 2026 The authors
 # The path provided should be relative to the "docs_dir".
 #
 # Read more: https://zensical.org/docs/customization/#additional-javascript
-#extra_javascript = ["javascripts/extra.js"]
+extra_javascript = [
+  "javascripts/mathjax.js",
+  "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js",
+]
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -108,145 +149,145 @@ Copyright &copy; 2026 The authors
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+language = "zh"
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
 features = [
-    # Zensical includes an announcement bar. This feature allows users to
-    # dismiss it when they have read the announcement.
-    # https://zensical.org/docs/setup/header/#announcement-bar
-    "announce.dismiss",
+  # Zensical includes an announcement bar. This feature allows users to
+  # dismiss it when they have read the announcement.
+  # https://zensical.org/docs/setup/header/#announcement-bar
+  "announce.dismiss",
 
-    # If you have a repository configured and turn on this feature, Zensical
-    # will generate an edit button for the page. This works for common
-    # repository hosting services.
-    # https://zensical.org/docs/setup/repository/#content-actions
-    #"content.action.edit",
+  # If you have a repository configured and turn on this feature, Zensical
+  # will generate an edit button for the page. This works for common
+  # repository hosting services.
+  # https://zensical.org/docs/setup/repository/#content-actions
+  #"content.action.edit",
 
-    # If you have a repository configured and turn on this feature, Zensical
-    # will generate a button that allows the user to view the Markdown
-    # code for the current page.
-    # https://zensical.org/docs/setup/repository/#content-actions
-    #"content.action.view",
+  # If you have a repository configured and turn on this feature, Zensical
+  # will generate a button that allows the user to view the Markdown
+  # code for the current page.
+  # https://zensical.org/docs/setup/repository/#content-actions
+  #"content.action.view",
 
-    # Code annotations allow you to add an icon with a tooltip to your
-    # code blocks to provide explanations at crucial points.
-    # https://zensical.org/docs/authoring/code-blocks/#code-annotations
-    "content.code.annotate",
+  # Code annotations allow you to add an icon with a tooltip to your
+  # code blocks to provide explanations at crucial points.
+  # https://zensical.org/docs/authoring/code-blocks/#code-annotations
+  "content.code.annotate",
 
-    # This feature turns on a button in code blocks that allow users to
-    # copy the content to their clipboard without first selecting it.
-    # https://zensical.org/docs/authoring/code-blocks/#code-copy-button
-    "content.code.copy",
+  # This feature turns on a button in code blocks that allow users to
+  # copy the content to their clipboard without first selecting it.
+  # https://zensical.org/docs/authoring/code-blocks/#code-copy-button
+  "content.code.copy",
 
-    # Code blocks can include a button to allow for the selection of line
-    # ranges by the user.
-    # https://zensical.org/docs/authoring/code-blocks/#code-selection-button
-    "content.code.select",
+  # Code blocks can include a button to allow for the selection of line
+  # ranges by the user.
+  # https://zensical.org/docs/authoring/code-blocks/#code-selection-button
+  "content.code.select",
 
-    # Zensical can render footnotes as inline tooltips, so the user can read
-    # the footnote without leaving the context of the document.
-    # https://zensical.org/docs/authoring/footnotes/#footnote-tooltips
-    "content.footnote.tooltips",
+  # Zensical can render footnotes as inline tooltips, so the user can read
+  # the footnote without leaving the context of the document.
+  # https://zensical.org/docs/authoring/footnotes/#footnote-tooltips
+  "content.footnote.tooltips",
 
-    # If you have many content tabs that have the same titles (e.g., "Python",
-    # "JavaScript", "Cobol"), this feature causes all of them to switch to
-    # at the same time when the user chooses their language in one.
-    # https://zensical.org/docs/authoring/content-tabs/#linked-content-tabs
-    "content.tabs.link",
+  # If you have many content tabs that have the same titles (e.g., "Python",
+  # "JavaScript", "Cobol"), this feature causes all of them to switch to
+  # at the same time when the user chooses their language in one.
+  # https://zensical.org/docs/authoring/content-tabs/#linked-content-tabs
+  "content.tabs.link",
 
-    # With this feature enabled users can add tooltips to links that will be
-    # displayed when the mouse pointer hovers the link.
-    # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
-    "content.tooltips",
+  # With this feature enabled users can add tooltips to links that will be
+  # displayed when the mouse pointer hovers the link.
+  # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
+  "content.tooltips",
 
-    # With this feature enabled, Zensical will automatically hide parts
-    # of the header when the user scrolls past a certain point.
-    # https://zensical.org/docs/setup/header/#automatic-hiding
-    # "header.autohide",
+  # With this feature enabled, Zensical will automatically hide parts
+  # of the header when the user scrolls past a certain point.
+  # https://zensical.org/docs/setup/header/#automatic-hiding
+  # "header.autohide",
 
-    # Turn on this feature to expand all collapsible sections in the
-    # navigation sidebar by default.
-    # https://zensical.org/docs/setup/navigation/#navigation-expansion
-    # "navigation.expand",
+  # Turn on this feature to expand all collapsible sections in the
+  # navigation sidebar by default.
+  # https://zensical.org/docs/setup/navigation/#navigation-expansion
+  # "navigation.expand",
 
-    # This feature turns on navigation elements in the footer that allow the
-    # user to navigate to a next or previous page.
-    # https://zensical.org/docs/setup/footer/#navigation
-    "navigation.footer",
+  # This feature turns on navigation elements in the footer that allow the
+  # user to navigate to a next or previous page.
+  # https://zensical.org/docs/setup/footer/#navigation
+  "navigation.footer",
 
-    # When section index pages are enabled, documents can be directly attached
-    # to sections, which is particularly useful for providing overview pages.
-    # https://zensical.org/docs/setup/navigation/#section-index-pages
-    "navigation.indexes",
+  # When section index pages are enabled, documents can be directly attached
+  # to sections, which is particularly useful for providing overview pages.
+  # https://zensical.org/docs/setup/navigation/#section-index-pages
+  "navigation.indexes",
 
-    # When instant navigation is enabled, clicks on all internal links will be
-    # intercepted and dispatched via XHR without fully reloading the page.
-    # https://zensical.org/docs/setup/navigation/#instant-navigation
-    "navigation.instant",
+  # When instant navigation is enabled, clicks on all internal links will be
+  # intercepted and dispatched via XHR without fully reloading the page.
+  # https://zensical.org/docs/setup/navigation/#instant-navigation
+  "navigation.instant",
 
-    # With instant prefetching, your site will start to fetch a page once the
-    # user hovers over a link. This will reduce the perceived loading time
-    # for the user.
-    # https://zensical.org/docs/setup/navigation/#instant-prefetching
-    "navigation.instant.prefetch",
+  # With instant prefetching, your site will start to fetch a page once the
+  # user hovers over a link. This will reduce the perceived loading time
+  # for the user.
+  # https://zensical.org/docs/setup/navigation/#instant-prefetching
+  "navigation.instant.prefetch",
 
-    # In order to provide a better user experience on slow connections when
-    # using instant navigation, a progress indicator can be enabled.
-    # https://zensical.org/docs/setup/navigation/#progress-indicator
-    #"navigation.instant.progress",
+  # In order to provide a better user experience on slow connections when
+  # using instant navigation, a progress indicator can be enabled.
+  # https://zensical.org/docs/setup/navigation/#progress-indicator
+  #"navigation.instant.progress",
 
-    # When navigation paths are activated, a breadcrumb navigation is rendered
-    # above the title of each page
-    # https://zensical.org/docs/setup/navigation/#navigation-path
-    "navigation.path",
+  # When navigation paths are activated, a breadcrumb navigation is rendered
+  # above the title of each page
+  # https://zensical.org/docs/setup/navigation/#navigation-path
+  "navigation.path",
 
-    # When pruning is enabled, only the visible navigation items are included
-    # in the rendered HTML, reducing the size of the built site by 33% or more.
-    # https://zensical.org/docs/setup/navigation/#navigation-pruning
-    #"navigation.prune",
+  # When pruning is enabled, only the visible navigation items are included
+  # in the rendered HTML, reducing the size of the built site by 33% or more.
+  # https://zensical.org/docs/setup/navigation/#navigation-pruning
+  #"navigation.prune",
 
-    # When sections are enabled, top-level sections are rendered as groups in
-    # the sidebar for viewports above 1220px, but remain as-is on mobile.
-    # https://zensical.org/docs/setup/navigation/#navigation-sections
-    "navigation.sections",
+  # When sections are enabled, top-level sections are rendered as groups in
+  # the sidebar for viewports above 1220px, but remain as-is on mobile.
+  # https://zensical.org/docs/setup/navigation/#navigation-sections
+  "navigation.sections",
 
-    # When tabs are enabled, top-level sections are rendered in a menu layer
-    # below the header for viewports above 1220px, but remain as-is on mobile.
-    # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+  # When tabs are enabled, top-level sections are rendered in a menu layer
+  # below the header for viewports above 1220px, but remain as-is on mobile.
+  # https://zensical.org/docs/setup/navigation/#navigation-tabs
+  #"navigation.tabs",
 
-    # When sticky tabs are enabled, navigation tabs will lock below the header
-    # and always remain visible when scrolling down.
-    # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
-    #"navigation.tabs.sticky",
+  # When sticky tabs are enabled, navigation tabs will lock below the header
+  # and always remain visible when scrolling down.
+  # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
+  #"navigation.tabs.sticky",
 
-    # A back-to-top button can be shown when the user, after scrolling down,
-    # starts to scroll up again.
-    # https://zensical.org/docs/setup/navigation/#back-to-top-button
-    "navigation.top",
+  # A back-to-top button can be shown when the user, after scrolling down,
+  # starts to scroll up again.
+  # https://zensical.org/docs/setup/navigation/#back-to-top-button
+  "navigation.top",
 
-    # When anchor tracking is enabled, the URL in the address bar is
-    # automatically updated with the active anchor as highlighted in the table
-    # of contents.
-    # https://zensical.org/docs/setup/navigation/#anchor-tracking
-    "navigation.tracking",
+  # When anchor tracking is enabled, the URL in the address bar is
+  # automatically updated with the active anchor as highlighted in the table
+  # of contents.
+  # https://zensical.org/docs/setup/navigation/#anchor-tracking
+  "navigation.tracking",
 
-    # When search highlighting is enabled and a user clicks on a search result,
-    # Zensical will highlight all occurrences after following the link.
-    # https://zensical.org/docs/setup/search/#search-highlighting
-    "search.highlight",
+  # When search highlighting is enabled and a user clicks on a search result,
+  # Zensical will highlight all occurrences after following the link.
+  # https://zensical.org/docs/setup/search/#search-highlighting
+  "search.highlight",
 
-    # When anchor following for the table of contents is enabled, the sidebar
-    # is automatically scrolled so that the active anchor is always visible.
-    # https://zensical.org/docs/setup/navigation/#anchor-following
-    # "toc.follow",
+  # When anchor following for the table of contents is enabled, the sidebar
+  # is automatically scrolled so that the active anchor is always visible.
+  # https://zensical.org/docs/setup/navigation/#anchor-following
+  # "toc.follow",
 
-    # When navigation integration for the table of contents is enabled, it is
-    # always rendered as part of the navigation sidebar on the left.
-    # https://zensical.org/docs/setup/navigation/#navigation-integration
-    #"toc.integrate",
+  # When navigation integration for the table of contents is enabled, it is
+  # always rendered as part of the navigation sidebar on the left.
+  # https://zensical.org/docs/setup/navigation/#navigation-integration
+  #"toc.integrate",
 ]
 
 # ----------------------------------------------------------------------------
@@ -339,7 +380,7 @@ pygments_lang_class = true
 [project.markdown_extensions.pymdownx.smartsymbols]
 [project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
-  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
 ]
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
