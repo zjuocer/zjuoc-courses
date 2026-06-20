@@ -1,4 +1,7 @@
-﻿# 流体力学课程导论
+# 流体力学课程导论
+
+!!! failure "AI生成"
+    本文档由AI生成，如果有更好的选择请自行移步。
 
 ## 讲义：Fluid Mechanics Introduction
 

@@ -1,4 +1,7 @@
-﻿# 第 4 章：恒定总流基本方程（二）
+# 第 4 章：恒定总流基本方程（二）
+
+!!! failure "AI生成"
+    本文档由AI生成，如果有更好的选择请自行移步。
 
 ## 讲义：Bernoulli Equation and Momentum Equation for Steady Total Flow
 
