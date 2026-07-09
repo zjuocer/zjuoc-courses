@@ -10,68 +10,30 @@
 
 nav = [
   { "首页" = "index.md" },
-  { "流体力学" = [
-    { "总目录" = "Fluid-Mechanics/index.md" },
-    #    { "00 课程导论" = [
-    #      { "课程导论" = "Fluid-Mechanics/00_课程导论/00_课程导论_Fluid_Mechanics_Introduction.md" },
-    #    ] },
-    { "01 绪论与流体性质" = [
-      { "流体力学绪论" = "Fluid-Mechanics/01_绪论与流体性质/01_流体力学绪论.md" },
-      { "流体主要性质：连续介质、惯性、压缩性" = "Fluid-Mechanics/01_绪论与流体性质/02_流体主要性质_连续介质_惯性_压缩性.md" },
-      { "流体主要性质：黏性、表面张力、汽化压强、受力" = "Fluid-Mechanics/01_绪论与流体性质/03_流体主要性质_黏性_表面张力_汽化压强_受力.md" },
+  { "大二" = [
+    { "大二" = "2-sophomore/index.md" },
+    { "海洋人工智能基础" = [
+      { "25-26回忆卷" = "2-sophomore/ocai/25-26海人基回忆.md" },
     ] },
-    { "02 流体静力学" = [
-      { "静水压强、平衡方程、压强分布" = "Fluid-Mechanics/02_流体静力学/01_静水压强_平衡方程_压强分布.md" },
-      { "浮力与浮体稳定性" = "Fluid-Mechanics/02_流体静力学/02_浮力与浮体稳定性.md" },
+    { "海洋科学" = [
+      { "海洋科学" = "2-sophomore/0-ocsci/index.md" },
     ] },
-    { "03 流体运动基础" = [
-      { "运动描述、流线、流动分类、有旋无旋" = "Fluid-Mechanics/03_流体运动基础/01_运动描述_流线_流动分类_有旋无旋.md" },
-      { "基本方程：连续性、Euler、NS、Bernoulli" = "Fluid-Mechanics/03_流体运动基础/02_基本方程_连续性_Euler_NS_Bernoulli.md" },
-      { "二维势流、流函数、流网、章节总结" = "Fluid-Mechanics/03_流体运动基础/03_二维势流_流函数_流网_章节总结.md" },
+    { "海洋工程与技术" = [
+      { "海洋工程与技术" = "2-sophomore/0-ocet/index.md" },
     ] },
-    { "04 恒定总流基本方程" = [
-      { "总流分析方法、连续性方程" = "Fluid-Mechanics/04_恒定总流基本方程/01_总流分析方法_连续性方程.md" },
-      { "总流 Bernoulli 方程、水头线、动量方程" = "Fluid-Mechanics/04_恒定总流基本方程/02_总流Bernoulli方程_水头线_动量方程.md" },
-    ] },
-    { "05 量纲分析与相似原理" = [
-      { "量纲分析、相似原理、模型试验" = "Fluid-Mechanics/05_量纲分析与相似原理/01_量纲分析_相似原理_模型试验.md" },
-    ] },
-    { "06 流动阻力与能量损失" = [
-      { "流动阻力基础、流态、圆管层流" = "Fluid-Mechanics/06_流动阻力与能量损失/01_流动阻力基础_流态_圆管层流.md" },
-    ] },
-    { "99 附录" = [
-      { "流体力学专业词汇表" = "Fluid-Mechanics/99_附录/流体力学专业词汇表.md" },
-      { "流体力学专业词汇表（按字母排序）" = "Fluid-Mechanics/99_附录/流体力学专业词汇表_按字母排序.md" },
-    ] },
-  ] },
-  { "海洋人工智能基础" = [
-    { "第一章 概率论基础" = [
-      { "学习路线" = "oc-ai/第一章_概率论基础_自学文档/00_学习路线.md" },
-      { "概率语言与随机变量" = "oc-ai/第一章_概率论基础_自学文档/01_概率语言与随机变量.md" },
-      { "条件概率、贝叶斯与MMSE" = "oc-ai/第一章_概率论基础_自学文档/02_条件概率_贝叶斯_MMSE.md" },
-      { "常见分布与高斯模型" = "oc-ai/第一章_概率论基础_自学文档/03_常见分布与高斯模型.md" },
-      { "线性高斯系统与指数族" = "oc-ai/第一章_概率论基础_自学文档/04_线性高斯系统与指数族.md" },
-      { "马尔科夫链与散度度量" = "oc-ai/第一章_概率论基础_自学文档/05_马尔科夫链与散度度量.md" },
-      { "公式速查" = "oc-ai/第一章_概率论基础_自学文档/06_公式速查.md" },
-      { "自测题与练习安排" = "oc-ai/第一章_概率论基础_自学文档/07_自测题与练习安排.md" },
-      { "补充例子与常见误区" = "oc-ai/第一章_概率论基础_自学文档/08_补充例子与常见误区.md" },
-    ] },
-  ] },
-  { "水下机器人学" = [
-    { "01 总体设计" = "Underwater-Robotics/01_总体设计.md" },
   ] },
 ]
 
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Notes"
+site_name = "海洋学院学习小窝"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "一个用来放笔记的仓库"
+site_description = "海洋学院学习小窝"
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -272,7 +234,7 @@ features = [
   # When tabs are enabled, top-level sections are rendered in a menu layer
   # below the header for viewports above 1220px, but remain as-is on mobile.
   # https://zensical.org/docs/setup/navigation/#navigation-tabs
-  #"navigation.tabs",
+  "navigation.tabs",
 
   # When sticky tabs are enabled, navigation tabs will lock below the header
   # and always remain visible when scrolling down.
