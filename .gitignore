@@ -11,3 +11,6 @@ wheels/
 
 # Zensical-generated files
 site/
+
+# Local preview logs
+.zensical-serve*.log
