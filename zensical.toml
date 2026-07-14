@@ -10,18 +10,47 @@
 
 nav = [
   { "首页" = "index.md" },
-  { "大二" = [
-    { "大二" = "2-sophomore/index.md" },
-    { "海洋人工智能基础" = [
-      { "25-26回忆卷" = "2-sophomore/ocai/25-26海人基回忆.md" },
+  { "课程资料" = [
+    { "大一" = "1-freshman/index.md" },
+    { "大二" = [
+      { "大二总览" = "2-sophomore/index.md" },
+      { "海洋人工智能基础" = [
+        { "课程主页" = "2-sophomore/ocai/index.md" },
+        { "历年卷/回忆卷" = "2-sophomore/ocai/papers.md" },
+        { "课程笔记" = "2-sophomore/ocai/notes.md" },
+        { "课程评分细则" = "2-sophomore/ocai/grading.md" },
+        { "课程评价+学习方法" = "2-sophomore/ocai/study-guide.md" },
+        { "老师评价" = "2-sophomore/ocai/teacher-reviews.md" },
+        { "参考教材/课程资料" = "2-sophomore/ocai/resources.md" },
+        { "25-26回忆卷" = "2-sophomore/ocai/25-26海人基回忆.md" },
+      ] },
+      { "海洋科学" = [
+        { "课程主页" = "2-sophomore/0-ocsci/index.md" },
+        { "历年卷/回忆卷" = "2-sophomore/0-ocsci/papers.md" },
+        { "课程笔记" = "2-sophomore/0-ocsci/notes.md" },
+        { "课程评分细则" = "2-sophomore/0-ocsci/grading.md" },
+        { "课程评价+学习方法" = "2-sophomore/0-ocsci/study-guide.md" },
+        { "老师评价" = "2-sophomore/0-ocsci/teacher-reviews.md" },
+        { "参考教材/课程资料" = "2-sophomore/0-ocsci/resources.md" },
+      ] },
+      { "海洋工程与技术" = [
+        { "课程主页" = "2-sophomore/0-ocet/index.md" },
+        { "历年卷/回忆卷" = "2-sophomore/0-ocet/papers.md" },
+        { "课程笔记" = "2-sophomore/0-ocet/notes.md" },
+        { "课程评分细则" = "2-sophomore/0-ocet/grading.md" },
+        { "课程评价+学习方法" = "2-sophomore/0-ocet/study-guide.md" },
+        { "老师评价" = "2-sophomore/0-ocet/teacher-reviews.md" },
+        { "参考教材/课程资料" = "2-sophomore/0-ocet/resources.md" },
+      ] },
     ] },
-    { "海洋科学" = [
-      { "海洋科学" = "2-sophomore/0-ocsci/index.md" },
-    ] },
-    { "海洋工程与技术" = [
-      { "海洋工程与技术" = "2-sophomore/0-ocet/index.md" },
-    ] },
+    { "大三" = "3-junior/index.md" },
+    { "大四" = "4-senior/index.md" },
   ] },
+  { "社区" = [
+    { "名人堂" = "community/hall-of-fame.md" },
+    { "个人主页" = "community/personal-homepages.md" },
+  ] },
+  { "飞跃手册" = "flying-handbook/index.md" },
 ]
 
 # The site_name is shown in the page header and the browser window title
@@ -73,7 +102,7 @@ Copyright &copy; 2026 The authors
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-#extra_css = ["stylesheets/extra.css"]
+extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
