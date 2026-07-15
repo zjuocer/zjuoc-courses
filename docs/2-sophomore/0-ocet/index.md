@@ -28,15 +28,7 @@
 
 <div class="branch-card" markdown>
 
-### 课程评分细则
-
-[进入板块](./grading.md){ .md-button }
-
-</div>
-
-<div class="branch-card" markdown>
-
-### 课程评价 + 学习方法
+### 课程评价
 
 [进入板块](./study-guide.md){ .md-button }
 
@@ -44,15 +36,7 @@
 
 <div class="branch-card" markdown>
 
-### 老师评价
-
-[进入板块](./teacher-reviews.md){ .md-button }
-
-</div>
-
-<div class="branch-card" markdown>
-
-### 参考教材 / 课程资料
+### 课程资料
 
 [进入板块](./resources.md){ .md-button }
 
