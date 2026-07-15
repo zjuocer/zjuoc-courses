@@ -5,10 +5,9 @@
 ## 复习大纲
 
 - [海洋人工智能基础 2026 复习大纲](<./assets/course-materials/海洋人工智能基础2026复习大纲.doc>)
+- [面向考纲复习资料.pdf](<./assets/review/面向考纲复习资料.pdf>)
 
 ## 课件
-
-以下资料标注为 2025-2026 秋冬学年 PPT / 课件，贡献者：王景麟。
 
 - [Syllabus_cn.pdf](<./assets/course-materials/Syllabus_cn.pdf>)
 - [Class_01_Foundations_cn.pdf](<./assets/course-materials/Class_01_Foundations_cn.pdf>)
@@ -41,11 +40,7 @@
 
 <div class="signature-box" markdown>
 
-- 课件提供：王景麟
-- 作业资料提供：
-- 复习大纲提供：
-- 整理 / 校对：
-- 页面维护：
-- 最近更新：
+- 内容提供：王景麟
+- 最后更新：2026-07-15 15:28:46 +08:00
 
 </div>
