@@ -8,8 +8,6 @@
 
 - [课程内容提纲.pdf](<./assets/notes/课程内容提纲.pdf>)
 
-贡献者名单：王景麟
-
 - [复习资料_电子电路部分.pdf](<./assets/notes/复习资料_电子电路部分.pdf>)
 
 贡献者名单：王景麟
@@ -17,8 +15,6 @@
 #### AI 自测题
 
 - [自测题1.pdf](<./assets/notes/ai-self-tests/自测题1.pdf>)
-
-贡献者名单：王景麟
 
 - [自测题2.pdf](<./assets/notes/ai-self-tests/自测题2.pdf>)
 
@@ -36,4 +32,10 @@
 
 贡献者名单：北欧海盐
 
-最后更新：2026-07-19 18:33:08 +08:00
+## 更新记录
+
+<div class="signature-box" markdown>
+
+- 最后更新：2026-07-19 23:04:20 +08:00
+
+</div>
