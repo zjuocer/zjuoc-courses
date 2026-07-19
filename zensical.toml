@@ -36,7 +36,17 @@ nav = [
         { "课程资料" = "2-sophomore/0-ocet/resources.md" },
       ] },
     ] },
-    { "大三" = "3-junior/index.md" },
+    { "大三" = [
+      { "大三总览" = "3-junior/index.md" },
+      { "水下机器人学" = [
+        { "课程主页" = "3-junior/underwater-robotics/index.md" },
+        { "历年卷/回忆卷" = "3-junior/underwater-robotics/papers.md" },
+        { "课程笔记" = "3-junior/underwater-robotics/notes.md" },
+        { "课程评价" = "3-junior/underwater-robotics/study-guide.md" },
+        { "课程资料" = "3-junior/underwater-robotics/resources.md" },
+        { "期中汇报" = "3-junior/underwater-robotics/midterm.md" },
+      ] },
+    ] },
     { "大四" = "4-senior/index.md" },
   ] },
   { "社区" = [
