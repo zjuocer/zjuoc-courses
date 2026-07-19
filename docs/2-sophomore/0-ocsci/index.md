@@ -20,7 +20,7 @@
 
 <div class="branch-card" markdown>
 
-### 课程笔记
+### 课程资源
 
 [进入板块](./notes.md){ .md-button }
 
