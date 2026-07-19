@@ -40,26 +40,6 @@
 
 </div>
 
-<div class="course-card" markdown>
-
-### 海洋科学
-
-已创建课程主页和六类资料分支，等待同学补充内容。
-
-[进入课程](./0-ocsci/){ .md-button }
-
-</div>
-
-<div class="course-card" markdown>
-
-### 海洋工程与技术
-
-已创建课程主页和六类资料分支，等待同学补充内容。
-
-[进入课程](./0-ocet/){ .md-button }
-
-</div>
-
 </div>
 
 ## 贡献者署名
@@ -71,4 +51,3 @@
 - 最近更新：
 
 </div>
-

@@ -36,20 +36,6 @@ nav = [
         { "课程评价" = "2-sophomore/fluid-mechanics/study-guide.md" },
         { "课程资料" = "2-sophomore/fluid-mechanics/resources.md" },
       ] },
-      { "海洋科学" = [
-        { "课程主页" = "2-sophomore/0-ocsci/index.md" },
-        { "历年卷/回忆卷" = "2-sophomore/0-ocsci/papers.md" },
-        { "课程资源" = "2-sophomore/0-ocsci/notes.md" },
-        { "课程评价" = "2-sophomore/0-ocsci/study-guide.md" },
-        { "课程资料" = "2-sophomore/0-ocsci/resources.md" },
-      ] },
-      { "海洋工程与技术" = [
-        { "课程主页" = "2-sophomore/0-ocet/index.md" },
-        { "历年卷/回忆卷" = "2-sophomore/0-ocet/papers.md" },
-        { "课程资源" = "2-sophomore/0-ocet/notes.md" },
-        { "课程评价" = "2-sophomore/0-ocet/study-guide.md" },
-        { "课程资料" = "2-sophomore/0-ocet/resources.md" },
-      ] },
     ] },
     { "大三" = [
       { "大三总览" = "3-junior/index.md" },
