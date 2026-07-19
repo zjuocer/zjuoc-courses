@@ -22,6 +22,16 @@
 
 <div class="course-card" markdown>
 
+### 水下机器人学
+
+已创建课程主页、历年卷、课程笔记、课程评价、课程资料、期中汇报等板块。
+
+[进入课程](./underwater-robotics/){ .md-button .md-button--primary }
+
+</div>
+
+<div class="course-card" markdown>
+
 ### 海洋科学
 
 已创建课程主页和六类资料分支，等待同学补充内容。
