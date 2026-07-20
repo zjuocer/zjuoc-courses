@@ -11,7 +11,16 @@
 nav = [
   { "首页" = "index.md" },
   { "课程资料" = [
-    { "大一" = "1-freshman/index.md" },
+    { "大一" = [
+      { "大一总览" = "1-freshman/index.md" },
+      { "海洋科学基础" = [
+        { "课程主页" = "1-freshman/ocean-science-foundation/index.md" },
+        { "历年卷/回忆卷" = "1-freshman/ocean-science-foundation/papers.md" },
+        { "课程资源" = "1-freshman/ocean-science-foundation/notes.md" },
+        { "课程评价" = "1-freshman/ocean-science-foundation/study-guide.md" },
+        { "课程资料" = "1-freshman/ocean-science-foundation/resources.md" },
+      ] },
+    ] },
     { "大二" = [
       { "大二总览" = "2-sophomore/index.md" },
       { "海洋人工智能基础" = [
