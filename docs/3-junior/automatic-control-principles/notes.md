@@ -24,10 +24,20 @@
 
 贡献者名单：dinosaur_6
 
+### 2025-2026 秋冬实验报告 1-5（补充）
+
+- [实验报告一 .pdf](<./assets/notes/experiments/2025-2026-supplement/实验报告一 .pdf>)
+- [实验报告二.pdf](./assets/notes/experiments/2025-2026-supplement/实验报告二.pdf)
+- [实验报告三.pdf](./assets/notes/experiments/2025-2026-supplement/实验报告三.pdf)
+- [实验报告四.pdf](./assets/notes/experiments/2025-2026-supplement/实验报告四.pdf)
+- [实验报告五.pdf](./assets/notes/experiments/2025-2026-supplement/实验报告五.pdf)
+
+贡献者名单：北欧海盐
+
 ## 更新记录
 
 <div class="signature-box" markdown>
 
-- 最后更新：2026-08-11 01:14:30 +08:00
+- 最后更新：2026-08-11 02:32:44 +08:00
 
 </div>

@@ -2,7 +2,7 @@
 
 <div class="section-hero" markdown>
 
-海洋环境与气候变化课程资料入口，按历年卷/回忆卷、课程资源、课程评价、课程给出材料归档。
+海洋环境与气候变化课程资料入口，按历年卷/回忆卷、课程资源、课程评价、课件/课程材料归档。
 
 </div>
 
@@ -33,7 +33,7 @@
 </div>
 <div class="course-card" markdown>
 
-### 课程给出材料
+### 课件/课程材料
 
 [进入板块](./resources.md){ .md-button .md-button--primary }
 

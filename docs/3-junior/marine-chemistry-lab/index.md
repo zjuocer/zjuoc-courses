@@ -36,7 +36,7 @@
 
 <div class="branch-card" markdown>
 
-### 课程给出材料
+### 课件/课程材料
 
 老师给出的 PPT、课件、实验手册和课程复习材料。
 
