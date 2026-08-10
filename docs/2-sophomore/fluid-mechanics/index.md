@@ -36,9 +36,9 @@
 
 <div class="branch-card" markdown>
 
-### 课程资料
+### 课程给出材料
 
-英文班 PPT、课件、课程资料和后续补充材料。
+英文班 PPT、课件、课程给出材料和后续补充材料。
 
 [进入板块](./resources.md){ .md-button .md-button--primary }
 

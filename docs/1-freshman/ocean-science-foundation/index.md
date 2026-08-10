@@ -36,7 +36,7 @@
 
 <div class="branch-card" markdown>
 
-### 课程资料
+### 课程给出材料
 
 课程总览、各模块 PPT、课件和后续补充资料。
 
