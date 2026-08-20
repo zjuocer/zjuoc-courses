@@ -90,6 +90,85 @@
 
 </div>
 
+<div class="course-card" markdown>
+
+### 智能结构与智慧港口
+
+智能结构与智慧港口课件与课程材料。
+
+[进入课程](./smart-structures-smart-port/){ .md-button .md-button--primary }
+
+</div>
+
+<div class="course-card" markdown>
+
+### 土力学与工程地质
+
+土力学与工程地质课件、评分细则与课程材料。
+
+[进入课程](./soil-mechanics-engineering-geology/){ .md-button .md-button--primary }
+
+</div>
+
+<div class="course-card" markdown>
+
+### 水文学与水动力学
+
+水文学与水动力学课件与课程材料。
+
+[进入课程](./hydrology-hydrodynamics/){ .md-button .md-button--primary }
+
+</div>
+
+<div class="course-card" markdown>
+
+### 水工钢筋混凝土结构学
+
+水工钢筋混凝土结构学课件与参考答案。
+
+[进入课程](./hydraulic-reinforced-concrete-structures/){ .md-button .md-button--primary }
+
+</div>
+
+<div class="course-card" markdown>
+
+### 结构力学
+
+结构力学课件、习题、评分细则与回忆卷。
+
+[进入课程](./structural-mechanics/){ .md-button .md-button--primary }
+
+</div>
+
+<div class="course-card" markdown>
+
+### 海上风电工程技术
+
+海上风电工程技术课件与课程材料。
+
+[进入课程](./offshore-wind-engineering/){ .md-button .md-button--primary }
+
+</div>
+
+<div class="course-card" markdown>
+
+### 港口规划与建筑物设计
+
+港口规划与建筑物设计课件、规范与评分细则。
+
+[进入课程](./port-planning-structure-design/){ .md-button .md-button--primary }
+
+</div>
+
+<div class="course-card" markdown>
+
+### 钢结构
+
+钢结构课件、电子教材与评分细则。
+
+[进入课程](./steel-structures/){ .md-button .md-button--primary }
+
+</div>
 </div>
 
 ## 专业选修课

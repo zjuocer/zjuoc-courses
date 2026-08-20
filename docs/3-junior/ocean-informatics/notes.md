@@ -32,7 +32,6 @@
 
 ### AI 整理笔记
 
-- [水声学原理.pdf](./assets/notes/ai-notes/水声学原理.pdf)
 - [期中部分，信息学.pdf](<./assets/notes/ai-notes/期中部分，信息学.pdf>)
 - [期末部分，阵列信号处理.pdf](<./assets/notes/ai-notes/期末部分，阵列信号处理.pdf>)
 
